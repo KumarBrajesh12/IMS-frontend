@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
-import { Navigation } from './components/Navigation';
-import { StudentList } from './components/StudentList';
+import Navigation from './components/Navigation';
+import StudentList from './components/StudentList';
 import { StudentForm } from './components/StudentForm';
 import { StudentMarks } from './components/StudentMarks'; 
 import { StudentDetails } from './components/StudentDetails';
